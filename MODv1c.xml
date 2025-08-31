@@ -10,8 +10,8 @@
   <cards>
 
     <card>
-      <name>Ink</name>
-      <set rarity="common">MOD</set>
+      <name>Inkwell</name>
+      <set rarity="">MOD</set>
       <prop>
         <colors></colors>
         <color></color>
@@ -20,7 +20,7 @@
         <mana></mana>
         <cmc>0</cmc>
         <mv>0</mv>
-        <type>Resource - Ink</type>
+        <type>Resource - Inkwell</type>
         <maintype>Resource</maintype>
         <notes></notes>
       </prop>
@@ -29,104 +29,8 @@
 Basis</text>
     </card>
     <card>
-      <name>Specter of the Page</name>
-      <set rarity="common">MOD</set>
-      <prop>
-        <colors></colors>
-        <color></color>
-        <manacost></manacost>
-        <cost></cost>
-        <mana></mana>
-        <cmc>0</cmc>
-        <mv>0</mv>
-        <type>Creature</type>
-        <maintype>Creature</maintype>
-        <pt>5/4</pt>
-        <notes></notes>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Cost = 5 Ink</text>
-    </card>
-    <card>
-      <name>Grand Erasure</name>
-      <set rarity="common">MOD</set>
-      <prop>
-        <colors></colors>
-        <color></color>
-        <manacost></manacost>
-        <cost></cost>
-        <mana></mana>
-        <cmc>0</cmc>
-        <mv>0</mv>
-        <type>Action</type>
-        <maintype>Action</maintype>
-        <notes></notes>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>Cost = 5 Ink
-Destroy all creatures.</text>
-    </card>
-    <card>
-      <name>Written Vigil</name>
-      <set rarity="common">MOD</set>
-      <prop>
-        <colors></colors>
-        <color></color>
-        <manacost></manacost>
-        <cost></cost>
-        <mana></mana>
-        <cmc>0</cmc>
-        <mv>0</mv>
-        <type>Creature</type>
-        <maintype>Creature</maintype>
-        <pt>2/2</pt>
-        <notes></notes>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Cost = 2 Ink
-Whenever Written Vigil attacks, untap it.</text>
-    </card>
-    <card>
-      <name>Ink to Ink</name>
-      <set rarity="common">MOD</set>
-      <prop>
-        <colors></colors>
-        <color></color>
-        <manacost></manacost>
-        <cost></cost>
-        <mana></mana>
-        <cmc>0</cmc>
-        <mv>0</mv>
-        <type>Action</type>
-        <maintype>Action</maintype>
-        <notes></notes>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>Cost = 2 Ink
-Destroy target creature. Its controller may put a resource card from their hand onto the battlefield.</text>
-    </card>
-    <card>
-      <name>Erase</name>
-      <set rarity="common">MOD</set>
-      <prop>
-        <colors></colors>
-        <color></color>
-        <manacost></manacost>
-        <cost></cost>
-        <mana></mana>
-        <cmc>0</cmc>
-        <mv>0</mv>
-        <type>Action</type>
-        <maintype>Action</maintype>
-        <notes></notes>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>Cost = 3 Ink
-Destroy target creature.</text>
-    </card>
-    <card>
       <name>The Ink Stares Back</name>
-      <set rarity="common">MOD</set>
+      <set rarity="uncommon">MOD</set>
       <prop>
         <colors></colors>
         <color></color>
@@ -141,7 +45,46 @@ Destroy target creature.</text>
       </prop>
       <tablerow>1</tablerow>
       <text>Cost = 3 Ink
-Return all Ink resource cards from your discard pile to the battlefield.</text>
+Return all Inkwell resource cards from your discard pile to your play zone.</text>
+    </card>
+    <card>
+      <name>Surging Inkstrosity</name>
+      <set rarity="uncommon">MOD</set>
+      <prop>
+        <colors></colors>
+        <color></color>
+        <manacost></manacost>
+        <cost></cost>
+        <mana></mana>
+        <cmc>0</cmc>
+        <mv>0</mv>
+        <type>Creature</type>
+        <maintype>Creature</maintype>
+        <pt>6/6</pt>
+        <notes></notes>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Cost = 7 Ink</text>
+    </card>
+    <card>
+      <name>Inkborn Pest</name>
+      <set rarity="rare">MOD</set>
+      <prop>
+        <colors></colors>
+        <color></color>
+        <manacost></manacost>
+        <cost></cost>
+        <mana></mana>
+        <cmc>0</cmc>
+        <mv>0</mv>
+        <type>Creature</type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+        <notes></notes>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Cost = 1 Ink
+Discard a card: Put Inkborn Pest from your discard pile into your play zone tapped.</text>
     </card>
     <card>
       <name>Inkling</name>
@@ -156,7 +99,7 @@ Return all Ink resource cards from your discard pile to the battlefield.</text>
         <mv>0</mv>
         <type>Creature</type>
         <maintype>Creature</maintype>
-        <pt>1/1</pt>
+        <pt>2/1</pt>
         <notes></notes>
       </prop>
       <tablerow>2</tablerow>
@@ -175,15 +118,72 @@ Return all Ink resource cards from your discard pile to the battlefield.</text>
         <mv>0</mv>
         <type>Creature</type>
         <maintype>Creature</maintype>
-        <pt>1/3</pt>
+        <pt>2/2</pt>
         <notes></notes>
       </prop>
       <tablerow>2</tablerow>
       <text>Cost = 2 Ink
-Flying</text>
+If Inkingbird would deal combat damage to a player, it deals that much damage plus 1 instead.</text>
     </card>
     <card>
-      <name>Archetypal Knight</name>
+      <name>Malformed Jackal</name>
+      <set rarity="common">MOD</set>
+      <prop>
+        <colors></colors>
+        <color></color>
+        <manacost></manacost>
+        <cost></cost>
+        <mana></mana>
+        <cmc>0</cmc>
+        <mv>0</mv>
+        <type>Creature</type>
+        <maintype>Creature</maintype>
+        <pt>3/1</pt>
+        <notes></notes>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Cost = 2 Ink</text>
+    </card>
+    <card>
+      <name>Comedy</name>
+      <set rarity="">MOD</set>
+      <prop>
+        <colors></colors>
+        <color></color>
+        <manacost></manacost>
+        <cost></cost>
+        <mana></mana>
+        <cmc>0</cmc>
+        <mv>0</mv>
+        <type>Resource - Comedy</type>
+        <maintype>Resource</maintype>
+        <notes></notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Cost = free
+Basis</text>
+    </card>
+    <card>
+      <name>Tragedy</name>
+      <set rarity="">MOD</set>
+      <prop>
+        <colors></colors>
+        <color></color>
+        <manacost></manacost>
+        <cost></cost>
+        <mana></mana>
+        <cmc>0</cmc>
+        <mv>0</mv>
+        <type>Resource - Tragedy</type>
+        <maintype>Resource</maintype>
+        <notes></notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Cost = free
+Basis</text>
+    </card>
+    <card>
+      <name>Inkborn Blackbird</name>
       <set rarity="common">MOD</set>
       <prop>
         <colors></colors>
@@ -199,30 +199,11 @@ Flying</text>
         <notes></notes>
       </prop>
       <tablerow>2</tablerow>
-      <text>Cost = 3 Ink</text>
-    </card>
-    <card>
-      <name>Aerial Inksage</name>
-      <set rarity="common">MOD</set>
-      <prop>
-        <colors></colors>
-        <color></color>
-        <manacost></manacost>
-        <cost></cost>
-        <mana></mana>
-        <cmc>0</cmc>
-        <mv>0</mv>
-        <type>Creature</type>
-        <maintype>Creature</maintype>
-        <pt>2/2</pt>
-        <notes></notes>
-      </prop>
-      <tablerow>2</tablerow>
       <text>Cost = 3 Ink
-Flying</text>
+If Inkborn Blackbird would deal combat damage to a player, it deals that much damage plus 1 instead.</text>
     </card>
     <card>
-      <name>Bloated Inktroll</name>
+      <name>Heroic Protagonist</name>
       <set rarity="common">MOD</set>
       <prop>
         <colors></colors>
@@ -234,15 +215,90 @@ Flying</text>
         <mv>0</mv>
         <type>Creature</type>
         <maintype>Creature</maintype>
-        <pt>3/4</pt>
+        <pt>1/1</pt>
         <notes></notes>
       </prop>
       <tablerow>2</tablerow>
-      <text>Cost = 4 Ink</text>
+      <text>Cost = 1 Ink
+Heroic Protagonist gets +1/+1 as long as its a blocker.</text>
+    </card>
+    <card>
+      <name>Martyr for a Cause</name>
+      <set rarity="common">MOD</set>
+      <prop>
+        <colors></colors>
+        <color></color>
+        <manacost></manacost>
+        <cost></cost>
+        <mana></mana>
+        <cmc>0</cmc>
+        <mv>0</mv>
+        <type>Creature</type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+        <notes></notes>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Cost = 1 Ink
+When Martyr for a Cause dies, draw a card.</text>
+    </card>
+    <card>
+      <name>Arrogant Protagonist</name>
+      <set rarity="rare">MOD</set>
+      <prop>
+        <colors></colors>
+        <color></color>
+        <manacost></manacost>
+        <cost></cost>
+        <mana></mana>
+        <cmc>0</cmc>
+        <mv>0</mv>
+        <type>Creature</type>
+        <maintype>Creature</maintype>
+        <pt>3/1</pt>
+        <notes></notes>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Cost = 1 Ink
+When Arrogant Protagonist dies, you lose 3 life.</text>
     </card>
 
     <!-->Tokens</-->
 
+    <card>
+      <name>Tragedy [Token] MOD</name>
+      <set>MOD</set>
+      <prop>
+        <colors></colors>
+        <type>Token Resource - Tragedy</type>
+        <maintype>Resource</maintype>
+        <notes>!token
+!related Comedy;Comedy [Token]</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Cost = free
+Basis</text>
+      <token>1</token>
+      <reverse-related>Comedy</reverse-related>
+      <reverse-related>Comedy [Token]</reverse-related>
+    </card>
+    <card>
+      <name>Comedy [Token] MOD</name>
+      <set>MOD</set>
+      <prop>
+        <colors></colors>
+        <type>Token Resource - Comedy</type>
+        <maintype>Resource</maintype>
+        <notes>!token
+!related Tragedy;Tragedy [Token]</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Cost = free
+Basis</text>
+      <token>1</token>
+      <reverse-related>Tragedy</reverse-related>
+      <reverse-related>Tragedy [Token]</reverse-related>
+    </card>
 
   </cards>
 </cockatrice_carddatabase>
